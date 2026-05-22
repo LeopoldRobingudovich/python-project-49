@@ -17,3 +17,8 @@ brain-games = "brain_games.scripts.brain_games:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["brain_games"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.14",
+]
