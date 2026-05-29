@@ -10,3 +10,6 @@
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeopoldRobingudovich_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeopoldRobingudovich_python-project-49)
 
+### Installation & Usage
+[![asciicast](https://asciinema.org/a/615sB4wGD73Y7eqx.svg)](https://asciinema.org/a/615sB4wGD73Y7eqx)
+
