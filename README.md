@@ -10,6 +10,13 @@
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeopoldRobingudovich_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeopoldRobingudovich_python-project-49)
 
+### Games: brain-even, brain-calc
+
 ### Installation & Usage
+
+# brain-even:
 [![asciicast](https://asciinema.org/a/615sB4wGD73Y7eqx.svg)](https://asciinema.org/a/615sB4wGD73Y7eqx)
+
+# brain-calc:
+[![asciicast](https://asciinema.org/a/y4dXC8Y59uHtR9fv.svg)](https://asciinema.org/a/y4dXC8Y59uHtR9fv)
 

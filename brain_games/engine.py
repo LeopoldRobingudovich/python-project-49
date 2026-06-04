@@ -1,10 +1,35 @@
+# from random import choice, randint
+from typing import Callable
+
 import brain_games.cli as cli
 
-
-def main():
-	print("Welcome to the Brain Games!")
-	cli.welcome_user()
+WELCOME_MSG = "Welcome to the Brain Games!"
 
 
-if __name__ == "__main__":
-	main()
+def get_answer():
+    return input("Your answer: ").lower()
+
+
+def run_game(get_right_answer: Callable[[], tuple], rules_game: str) -> None:
+    name_gamer = cli.welcome_user()
+
+    print(rules_game)
+
+    count_correct_answer = 1
+
+    while count_correct_answer < 4:
+        right_answer, question = get_right_answer()
+
+        print(question)
+
+        answer = get_answer()
+        if answer == str(right_answer):
+            print("Correct!")
+        elif answer != str(right_answer):
+            return print(
+                f"{answer} is wrong answer ;(. "
+                f"Correct answer was {right_answer}.\n"
+                f"Let's try again, {name_gamer}"
+            )
+        count_correct_answer += 1
+    print(f"Congratulations, {name_gamer}!")
