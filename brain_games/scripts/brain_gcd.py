@@ -1,5 +1,5 @@
 from brain_games.engine import WELCOME_MSG, run_game
-from brain_games.games.even import DESCRIPTION, get_question_right_answer
+from brain_games.games.gcd import DESCRIPTION, get_question_right_answer
 
 
 def main():

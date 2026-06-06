@@ -7,23 +7,25 @@ WELCOME_MSG = "Welcome to the Brain Games!"
 
 
 def get_answer():
-    return input("Your answer: ").lower()
+    return input("Your answer: ")
 
 
-def run_game(get_right_answer: Callable[[], tuple], rules_game: str) -> None:
+def run_game(
+    get_question_right_answer: Callable[[], tuple], rules_game: str
+) -> None:
+
     name_gamer = cli.welcome_user()
 
     print(rules_game)
 
     count_correct_answer = 1
-
     while count_correct_answer < 4:
-        right_answer, question = get_right_answer()
+        question, right_answer = get_question_right_answer()
 
         print(question)
 
         answer = get_answer()
-        if answer == str(right_answer):
+        if answer.lower() == str(right_answer):
             print("Correct!")
         elif answer != str(right_answer):
             return print(

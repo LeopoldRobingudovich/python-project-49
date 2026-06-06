@@ -14,12 +14,12 @@ def is_even(number: int) -> bool:
         return False
 
 
-def get_right_answer() -> tuple[str, str]:
+def get_question_right_answer() -> tuple[str, str]:
     random_number = get_random_num()
     question = f"Question: {random_number}"
 
     even_or_not = is_even(random_number)
     if even_or_not:
-        return "yes", question
+        return question, "yes"
     elif not even_or_not:
-        return "no", question
+        return question, "no"

@@ -12,7 +12,7 @@ def get_random_operator():
     return choice(operators)
 
 
-def get_right_answer() -> tuple[str, int]:
+def get_question_right_answer() -> tuple[str, int]:
     random_number1 = get_random_num()
     random_number2 = get_random_num()
     random_operator = get_random_operator()
@@ -21,10 +21,10 @@ def get_right_answer() -> tuple[str, int]:
     match random_operator:
         case "+":
             right_answer = random_number1 + random_number2
-            return right_answer, question
+            return question, right_answer
         case "-":
             right_answer = random_number1 - random_number2
-            return right_answer, question
+            return question, right_answer
         case "*":
             right_answer = random_number1 * random_number2
-            return right_answer, question
+            return question, right_answer
