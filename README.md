@@ -20,3 +20,5 @@
 # brain-calc:
 [![asciicast](https://asciinema.org/a/y4dXC8Y59uHtR9fv.svg)](https://asciinema.org/a/y4dXC8Y59uHtR9fv)
 
+# brain-gcd:
+[![asciicast](https://asciinema.org/a/223MTDNSfmqoxnPv.svg)](https://asciinema.org/a/223MTDNSfmqoxnPv)
