@@ -16,11 +16,8 @@ def get_question_right_answer() -> tuple[str, int]:
 
     if random_num2 == 0:
         right_answer = random_num1
-        # print(question, right_answer)
         return question, right_answer
 
-    # random_num1 = 100
-    # random_num2 = 33
     number1 = random_num1
     number2 = random_num2
     while number2 != 0:
@@ -28,6 +25,4 @@ def get_question_right_answer() -> tuple[str, int]:
             remainder = number1 % number2
             number1, number2 = number2, remainder
             right_answer = number1
-    # print(f"НОД чисел ({random_num1} и {random_num2}) = {number1}")
-
     return question, right_answer

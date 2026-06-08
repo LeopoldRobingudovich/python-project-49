@@ -1,4 +1,3 @@
-# from random import choice, randint
 from typing import Callable
 
 import brain_games.cli as cli
