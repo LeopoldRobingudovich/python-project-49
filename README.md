@@ -15,7 +15,7 @@
 ### Installation & Usage
 
 # brain-even:
-[![asciicast](https://asciinema.org/a/615sB4wGD73Y7eqx.svg)](https://asciinema.org/a/615sB4wGD73Y7eqx)
+[![asciicast](https://asciinema.org/a/z8fljaKftvTklTP1.svg)](https://asciinema.org/a/z8fljaKftvTklTP1)
 
 # brain-calc:
 [![asciicast](https://asciinema.org/a/y4dXC8Y59uHtR9fv.svg)](https://asciinema.org/a/y4dXC8Y59uHtR9fv)
