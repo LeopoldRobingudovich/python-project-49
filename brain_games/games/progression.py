@@ -35,3 +35,6 @@ def get_qustion_right_answer() -> tuple[str, int]:
     question = question[:-1]
 
     return question, right_answer
+
+
+# current_element = start_number + index * step_progression - формула из урока

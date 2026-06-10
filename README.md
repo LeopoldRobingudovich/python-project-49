@@ -10,7 +10,7 @@
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeopoldRobingudovich_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeopoldRobingudovich_python-project-49)
 
-### Games: brain-even, brain-calc, brain-gcd, brain-progression
+### Games: brain-even, brain-calc, brain-gcd, brain-progression, brain-prime
 
 ### Installation & Usage
 
@@ -25,3 +25,6 @@
 
 # brain-progression:
 [![asciicast](https://asciinema.org/a/x6BYRZkBEmfdz8Iu.svg)](https://asciinema.org/a/x6BYRZkBEmfdz8Iu)
+
+# brain-prime:
+[![asciicast](https://asciinema.org/a/eiAOX44QYvWx9tf7.svg)](https://asciinema.org/a/eiAOX44QYvWx9tf7)

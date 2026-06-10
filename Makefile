@@ -1,6 +1,8 @@
 install:
 	uv sync
 
+tree:
+	tree -I '__pycache__'
 
 brain-games:
 	uv run brain-games
@@ -20,6 +22,10 @@ brain-gcd:
 
 brain-progression:
 	uv run brain-progression
+
+
+brain-prime:
+	uv run brain-prime
 
 
 build:
