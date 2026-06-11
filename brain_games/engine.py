@@ -30,7 +30,7 @@ def run_game(
             return print(
                 f"{answer} is wrong answer ;(. "
                 f"Correct answer was {right_answer}.\n"
-                f"Let's try again, {name_gamer}"
+                f"Let's try again, {name_gamer}!"
             )
         count_correct_answer += 1
     print(f"Congratulations, {name_gamer}!")
