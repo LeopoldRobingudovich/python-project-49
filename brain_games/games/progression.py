@@ -29,7 +29,7 @@ def get_qustion_right_answer() -> tuple[str, int]:
     right_answer = progression[replaceable_number]
     progression[replaceable_number] = ".."
 
-    question = ""
+    question = "Question: "
     for element in progression:
         question = question + str(element) + " "
     question = question[:-1]
