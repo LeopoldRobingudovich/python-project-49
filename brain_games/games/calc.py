@@ -16,7 +16,7 @@ def get_question_right_answer() -> tuple[str, int]:
     random_number1 = get_random_num()
     random_number2 = get_random_num()
     random_operator = get_random_operator()
-    question = f"{random_number1} {random_operator} {random_number2}"
+    question = f"Question: {random_number1} {random_operator} {random_number2}"
 
     match random_operator:
         case "+":
